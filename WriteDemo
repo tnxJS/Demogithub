@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string.h>
+
+void main()
+{
+  char cTest[256];
+  memset(0x00, cTest, sizeof(cTest));
+  strcpy(cTest,"서울특별시 영등포구 신길동 1514-4. ");
+  printf("우리집은 %s 입니다.\n7호선 보라매역과 걸어서 3분거리 입니다",
+}
